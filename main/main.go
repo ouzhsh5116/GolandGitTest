@@ -57,7 +57,7 @@ func main() {
 		// 获取数据库查询信息展示
 		c.HTML(http.StatusOK, "book_list.html", gin.H{"ID": "123", "Title": "新增图书", "Price": "123"})
 	})
-
+	fmt.Printf("hello world")
 	err = r.Run(":8080")
 	if err != nil {
 		return
