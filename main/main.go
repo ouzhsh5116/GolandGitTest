@@ -59,6 +59,7 @@ func main() {
 	})
 	fmt.Printf("hello world")
 	fmt.Printf("hello world")
+	fmt.Printf("hello world")
 	err = r.Run(":8080")
 	if err != nil {
 		return
